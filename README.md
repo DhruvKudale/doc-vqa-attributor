@@ -19,4 +19,10 @@ To run the `doc-vqa-attributor` UI locally, follow these steps:
    git clone https://github.com/yourusername/doc-vqa-attributor.git
    cd doc-vqa-attributor
 
+2. **Run the Streamlit app**:
+
+   ```bash
+   streamlit run app.py
+
+
 
