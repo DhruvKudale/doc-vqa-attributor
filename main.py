@@ -22,6 +22,8 @@ def get_attributed_image(pdf_path, answer):
 
     for page in doc_map.keys():
         for text in doc_map[page].keys():
+            if text == "":
+                continue
             simi = similarity(answer, text)
             if simi > max_simi:
                 max_simi = simi
